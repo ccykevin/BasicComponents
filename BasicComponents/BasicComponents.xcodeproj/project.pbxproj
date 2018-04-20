@@ -9,6 +9,25 @@
 /* Begin PBXBuildFile section */
 		2262D98E2089DBB40066C471 /* BasicComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = 2262D98C2089DBB40066C471 /* BasicComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2262D9962089DCA30066C471 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2262D9952089DCA30066C471 /* .gitignore */; };
+		2262D99B2089DEF40066C471 /* GlobalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D99A2089DEF40066C471 /* GlobalFunctions.swift */; };
+		2262D99D2089DF240066C471 /* BarcodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D99C2089DF240066C471 /* BarcodeGenerator.swift */; };
+		2262D99F2089DF390066C471 /* BasicCustomCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D99E2089DF390066C471 /* BasicCustomCollectionView.swift */; };
+		2262D9A12089DF830066C471 /* BasicCustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9A02089DF830066C471 /* BasicCustomTextField.swift */; };
+		2262D9A32089DFA50066C471 /* BasicTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9A22089DFA50066C471 /* BasicTextView.swift */; };
+		2262D9A52089DFE70066C471 /* CustomLabelWithPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9A42089DFE70066C471 /* CustomLabelWithPadding.swift */; };
+		2262D9A82089E0380066C471 /* ViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9A72089E0380066C471 /* ViewConfiguration.swift */; };
+		2262D9AA2089E0520066C471 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9A92089E0520066C471 /* Bundle.swift */; };
+		2262D9AC2089E0610066C471 /* Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9AB2089E0610066C471 /* Collection.swift */; };
+		2262D9AE2089E07D0066C471 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9AD2089E07D0066C471 /* Data.swift */; };
+		2262D9B02089E08B0066C471 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9AF2089E08B0066C471 /* Dictionary.swift */; };
+		2262D9B22089E09F0066C471 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9B12089E09F0066C471 /* Double.swift */; };
+		2262D9B42089E0B30066C471 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9B32089E0B30066C471 /* String.swift */; };
+		2262D9B62089E0D70066C471 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9B52089E0D70066C471 /* TextField.swift */; };
+		2262D9B82089E1150066C471 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9B72089E1150066C471 /* UIApplication.swift */; };
+		2262D9BA2089E1300066C471 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9B92089E1300066C471 /* UIButton.swift */; };
+		2262D9BC2089E1460066C471 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9BB2089E1460066C471 /* UIColor.swift */; };
+		2262D9BE2089E15B0066C471 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9BD2089E15B0066C471 /* UIDevice.swift */; };
+		2262D9C02089E1970066C471 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262D9BF2089E1970066C471 /* UINavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +35,25 @@
 		2262D98C2089DBB40066C471 /* BasicComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicComponents.h; sourceTree = "<group>"; };
 		2262D98D2089DBB40066C471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2262D9952089DCA30066C471 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2262D99A2089DEF40066C471 /* GlobalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalFunctions.swift; sourceTree = "<group>"; };
+		2262D99C2089DF240066C471 /* BarcodeGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeGenerator.swift; sourceTree = "<group>"; };
+		2262D99E2089DF390066C471 /* BasicCustomCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomCollectionView.swift; sourceTree = "<group>"; };
+		2262D9A02089DF830066C471 /* BasicCustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCustomTextField.swift; sourceTree = "<group>"; };
+		2262D9A22089DFA50066C471 /* BasicTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTextView.swift; sourceTree = "<group>"; };
+		2262D9A42089DFE70066C471 /* CustomLabelWithPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabelWithPadding.swift; sourceTree = "<group>"; };
+		2262D9A72089E0380066C471 /* ViewConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewConfiguration.swift; sourceTree = "<group>"; };
+		2262D9A92089E0520066C471 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		2262D9AB2089E0610066C471 /* Collection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collection.swift; sourceTree = "<group>"; };
+		2262D9AD2089E07D0066C471 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		2262D9AF2089E08B0066C471 /* Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary.swift; sourceTree = "<group>"; };
+		2262D9B12089E09F0066C471 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		2262D9B32089E0B30066C471 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		2262D9B52089E0D70066C471 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		2262D9B72089E1150066C471 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		2262D9B92089E1300066C471 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		2262D9BB2089E1460066C471 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		2262D9BD2089E15B0066C471 /* UIDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		2262D9BF2089E1970066C471 /* UINavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +89,59 @@
 			children = (
 				2262D98C2089DBB40066C471 /* BasicComponents.h */,
 				2262D98D2089DBB40066C471 /* Info.plist */,
+				2262D9982089DEC10066C471 /* Customize */,
+				2262D9992089DED30066C471 /* Extension */,
+				2262D9972089DEBA0066C471 /* Global */,
+				2262D9A62089E00B0066C471 /* Protocol */,
 			);
 			path = BasicComponents;
+			sourceTree = "<group>";
+		};
+		2262D9972089DEBA0066C471 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				2262D99A2089DEF40066C471 /* GlobalFunctions.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		2262D9982089DEC10066C471 /* Customize */ = {
+			isa = PBXGroup;
+			children = (
+				2262D99C2089DF240066C471 /* BarcodeGenerator.swift */,
+				2262D99E2089DF390066C471 /* BasicCustomCollectionView.swift */,
+				2262D9A02089DF830066C471 /* BasicCustomTextField.swift */,
+				2262D9A22089DFA50066C471 /* BasicTextView.swift */,
+				2262D9A42089DFE70066C471 /* CustomLabelWithPadding.swift */,
+			);
+			path = Customize;
+			sourceTree = "<group>";
+		};
+		2262D9992089DED30066C471 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2262D9A92089E0520066C471 /* Bundle.swift */,
+				2262D9AB2089E0610066C471 /* Collection.swift */,
+				2262D9AD2089E07D0066C471 /* Data.swift */,
+				2262D9AF2089E08B0066C471 /* Dictionary.swift */,
+				2262D9B12089E09F0066C471 /* Double.swift */,
+				2262D9B32089E0B30066C471 /* String.swift */,
+				2262D9B52089E0D70066C471 /* TextField.swift */,
+				2262D9B72089E1150066C471 /* UIApplication.swift */,
+				2262D9B92089E1300066C471 /* UIButton.swift */,
+				2262D9BB2089E1460066C471 /* UIColor.swift */,
+				2262D9BD2089E15B0066C471 /* UIDevice.swift */,
+				2262D9BF2089E1970066C471 /* UINavigationController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2262D9A62089E00B0066C471 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				2262D9A72089E0380066C471 /* ViewConfiguration.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +187,7 @@
 				TargetAttributes = {
 					2262D9882089DBB40066C471 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,6 +225,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2262D9AC2089E0610066C471 /* Collection.swift in Sources */,
+				2262D9BE2089E15B0066C471 /* UIDevice.swift in Sources */,
+				2262D9B42089E0B30066C471 /* String.swift in Sources */,
+				2262D9AE2089E07D0066C471 /* Data.swift in Sources */,
+				2262D9C02089E1970066C471 /* UINavigationController.swift in Sources */,
+				2262D9BA2089E1300066C471 /* UIButton.swift in Sources */,
+				2262D9B82089E1150066C471 /* UIApplication.swift in Sources */,
+				2262D9B62089E0D70066C471 /* TextField.swift in Sources */,
+				2262D9BC2089E1460066C471 /* UIColor.swift in Sources */,
+				2262D99D2089DF240066C471 /* BarcodeGenerator.swift in Sources */,
+				2262D9AA2089E0520066C471 /* Bundle.swift in Sources */,
+				2262D9B02089E08B0066C471 /* Dictionary.swift in Sources */,
+				2262D9A52089DFE70066C471 /* CustomLabelWithPadding.swift in Sources */,
+				2262D99F2089DF390066C471 /* BasicCustomCollectionView.swift in Sources */,
+				2262D99B2089DEF40066C471 /* GlobalFunctions.swift in Sources */,
+				2262D9A12089DF830066C471 /* BasicCustomTextField.swift in Sources */,
+				2262D9A82089E0380066C471 /* ViewConfiguration.swift in Sources */,
+				2262D9B22089E09F0066C471 /* Double.swift in Sources */,
+				2262D9A32089DFA50066C471 /* BasicTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +366,7 @@
 		2262D9922089DBB40066C471 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -271,6 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevincheng.BasicComponents;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -279,6 +390,7 @@
 		2262D9932089DBB40066C471 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
