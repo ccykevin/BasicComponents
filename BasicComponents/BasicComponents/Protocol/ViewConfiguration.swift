@@ -13,7 +13,7 @@ public protocol ViewConfiguration: class {
   func setupViewConfiguration()
 }
 
-extension ViewConfiguration {
+public extension ViewConfiguration {
   func setupViewConfiguration() {
     configureViews();
     buildViewHierarchy();
