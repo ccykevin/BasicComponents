@@ -6,9 +6,9 @@
 //  Copyright © 2018 Kevin Cheng. All rights reserved.
 //
 
-public class BarcodeGenerator {
+open class BarcodeGenerator {
   
-  static func generateQRCodeWithAlphaBackground(from value: String, size: CGSize) -> UIImage? {
+  public static func generateQRCodeWithAlphaBackground(from value: String, size: CGSize) -> UIImage? {
     let data = value.data(using: String.Encoding.isoLatin1, allowLossyConversion: false);
     
     guard let filter = CIFilter(name: "CIQRCodeGenerator") else { return nil; }
@@ -29,7 +29,7 @@ public class BarcodeGenerator {
     return UIImage(ciImage: maskedImage).withRenderingMode(.alwaysTemplate); // Use tint color to config color
   }
   
-  static func generateBarCodeWithAlphaBackground(from value: String, size: CGSize) -> UIImage? {
+  public static func generateBarCodeWithAlphaBackground(from value: String, size: CGSize) -> UIImage? {
     guard let data = value.data(using: String.Encoding.ascii, allowLossyConversion: false) else { return nil; }
     
     guard let filter = CIFilter(name: "CIPDF417BarcodeGenerator") else { return nil; }

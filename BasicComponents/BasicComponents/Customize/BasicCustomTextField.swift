@@ -8,11 +8,11 @@
 
 open class BasicCustomTextField: UITextField {
   
-  var _allowedActions: [ResponderStandardEditActions]?;
+  public var allowedActions: [ResponderStandardEditActions]?;
   
   override open func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
     
-    if let actions = _allowedActions {
+    if let actions = allowedActions {
       return actions.map{ $0.selector }.contains(action);
     }
     

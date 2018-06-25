@@ -8,7 +8,7 @@
 
 public extension Data {
   // APNs Token converter
-  var hexString: String {
+  public var hexString: String {
     return map { String(format: "%02.2hhx", arguments: [$0]) }.joined();
   }
 }

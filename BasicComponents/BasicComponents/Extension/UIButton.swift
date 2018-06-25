@@ -7,7 +7,7 @@
 //
 
 public extension UIButton {
-  func setBackgroundColor(color: UIColor, forState: UIControlState) {
+  public func setBackgroundColor(color: UIColor, forState: UIControlState) {
     UIGraphicsBeginImageContext(CGSize(width: 1, height: 1));
     UIGraphicsGetCurrentContext()!.setFillColor(color.cgColor);
     UIGraphicsGetCurrentContext()!.fill(CGRect(x: 0, y: 0, width: 1, height: 1));
@@ -19,11 +19,11 @@ public extension UIButton {
 
 public extension UIButton {
   // reference: https://www.ctolib.com/ButtonContentEdgeInsets.html
-  enum ImagePositionType {
+  public enum ImagePositionType {
     case top, left, bottom, right;
   }
   
-  func setImagePosition(to position: ImagePositionType, space: CGFloat = 0.0) {
+  public func setImagePosition(to position: ImagePositionType, space: CGFloat = 0.0) {
     if #available(iOS 10.0, *) {
       self.superview?.layoutIfNeeded();
     } else {
