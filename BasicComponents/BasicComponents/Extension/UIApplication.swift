@@ -7,7 +7,7 @@
 //
 
 public extension UIApplication {
-  class var statusBarBackgroundColor: UIColor? {
+  public class var statusBarBackgroundColor: UIColor? {
     get {
       return (shared.value(forKey: "statusBar") as? UIView)?.backgroundColor;
     } set {
@@ -15,7 +15,7 @@ public extension UIApplication {
     }
   }
   
-  static func topViewController(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+  public static func topViewController(controller: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
     if let tabController = controller as? UITabBarController {
       if let selected = tabController.selectedViewController {
         return topViewController(controller: selected);

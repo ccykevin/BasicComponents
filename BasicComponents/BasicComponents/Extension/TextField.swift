@@ -12,7 +12,7 @@ public enum ResponderStandardEditActions {
   case toggleBoldface, toggleItalics, toggleUnderline;
   case increaseSize, decreaseSize;
   
-  var selector: Selector {
+  public var selector: Selector {
     switch self {
     case .cut:
       return #selector(UIResponderStandardEditActions.cut);

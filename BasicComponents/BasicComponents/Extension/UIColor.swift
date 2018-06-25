@@ -8,7 +8,7 @@
 
 public extension UIColor {
   // Exmaple: UIColor(rgb: 0xFFFFFF)
-  convenience init(rgb: Int, alpha: CGFloat = 1.0) {
+  public convenience init(rgb: Int, alpha: CGFloat = 1.0) {
     self.init(
       red: (rgb >> 16) & 0xFF,
       green: (rgb >> 8) & 0xFF,
@@ -18,7 +18,7 @@ public extension UIColor {
   }
   
   // Example: UIColor(red: 0xFF, green: 0xFF, blue: 0xFF)
-  convenience init(red: Int, green: Int, blue: Int, a alpha: CGFloat = 1.0) {
+  public convenience init(red: Int, green: Int, blue: Int, a alpha: CGFloat = 1.0) {
     assert(red >= 0 && red <= 255, "Invalid red component");
     assert(green >= 0 && green <= 255, "Invalid green component");
     assert(blue >= 0 && blue <= 255, "Invalid blue component");
@@ -27,7 +27,7 @@ public extension UIColor {
   }
   
   // Example: UIColor(hexString: "#B20B27")
-  convenience init(hexString: String) {
+  public convenience init(hexString: String) {
     let hex = hexString.trimmingCharacters(in: CharacterSet.alphanumerics.inverted);
     var int = UInt32();
     Scanner(string: hex).scanHexInt32(&int);

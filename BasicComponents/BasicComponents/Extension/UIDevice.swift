@@ -7,7 +7,7 @@
 //
 
 public extension UIDevice {
-  var rawModelName: String {
+  public var rawModelName: String {
     var systemInfo = utsname();
     uname(&systemInfo);
     let machineMirror = Mirror(reflecting: systemInfo.machine);
@@ -19,7 +19,7 @@ public extension UIDevice {
     return identifier;
   }
   
-  var modelName: String {
+  public var modelName: String {
     let identifier = rawModelName;
     
     switch identifier {
